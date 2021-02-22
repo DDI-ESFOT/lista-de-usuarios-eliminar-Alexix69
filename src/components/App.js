@@ -8,7 +8,6 @@ function App({ users }) {
   return (
     <>
       <Counter />
-
       <UserList users={users} />
     </>
   );

@@ -2,6 +2,10 @@
  * Created by chalosalvador on 4/2/21
  */
 import { useState } from "react";
+import {getFCP} from "web-vitals";
+
+import React from 'react';
+
 
 const Counter = () => {
   // const state = useState(5);
